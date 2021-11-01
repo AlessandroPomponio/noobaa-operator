@@ -14,9 +14,6 @@ spec:
         requests:
           cpu: "100m"
           memory: "400Mi"
-        limits:
-          cpu: "100m"
-          memory: "400Mi"
       env:
         # Insert the relevant config for the current agent
         - name: CONTAINER_PLATFORM

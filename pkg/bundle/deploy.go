@@ -3005,7 +3005,7 @@ spec:
             value: KUBERNETES
       restartPolicy: OnFailure`
 
-const Sha256_deploy_internal_pod_agent_yaml = "204e11eea569564b507010d13c43a2d3ad5feae9e86666a08904508eab231830"
+const Sha256_deploy_internal_pod_agent_yaml = "eee8964c4c5f7d651046ab3fae3d978b0b93f436683a5c9be36bfa3c7d437612"
 
 const File_deploy_internal_pod_agent_yaml = `apiVersion: v1
 kind: Pod
@@ -3021,9 +3021,6 @@ spec:
       resources:
         # https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/
         requests:
-          cpu: "100m"
-          memory: "400Mi"
-        limits:
           cpu: "100m"
           memory: "400Mi"
       env:
